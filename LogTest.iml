@@ -5,6 +5,7 @@
       <configuration>
         <fileset id="fileset" name="LogTestConfig" removed="false">
           <file>file://$MODULE_DIR$/LogTestConfig.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/LogTestConfig.xml</file>
         </fileset>
       </configuration>
     </facet>

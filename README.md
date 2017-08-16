@@ -1,1 +1,2 @@
 "# LogTest" 
+version 2

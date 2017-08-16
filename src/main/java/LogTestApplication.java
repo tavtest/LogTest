@@ -12,9 +12,7 @@ public class LogTestApplication {
         System.out.println("Starting LogTestApplication...");
 
         ApplicationContext context = new ClassPathXmlApplicationContext("LogTestConfig.xml");
-// Получение компонента knight
-//        BraveKnight knight = (BraveKnight) context.getBean("knight");
-// Использование компонента knight
-//        knight.embarkOnQuest();
+        BraveKnight knight = (BraveKnight) context.getBean("knight");
+        knight.embarkOnQuest();
     }
 }
